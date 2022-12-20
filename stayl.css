@@ -1,0 +1,116 @@
+body {
+  background-color: aqua;
+  text-align: center;
+}
+.contanir {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boxs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  /* margin-left: 40%; */
+  /* background-color: blueviolet; */
+}
+.forim_cart {
+  display: flex;
+  flex-direction: column;
+}
+.imgscart {
+  display: flex;
+  justify-content: space-between;
+}
+.input {
+  font-size: 28px;
+  margin-bottom: 20px;
+  padding: 3px 12px;
+  border-radius: 10px;
+  border: none;
+}
+.box_itim {
+  display: flex;
+  flex-direction: column;
+}
+.itim {
+  font-size: 30px;
+  color: dimgray;
+  margin-bottom: 35px;
+  margin-top: 15px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.button_new {
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 12px;
+  background-color: black;
+  color: #fff;
+  transition: 0.3s;
+}
+.button_new:hover {
+  background-color: red;
+  color: black;
+}
+.button_all {
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 30px;
+  background-color: red;
+  color: black;
+  transition: 0.3s;
+  margin-top: -48px;
+  margin-left: 400px;
+}
+.button_all:hover {
+  background-color: black;
+  color: #fff;
+}
+.itemImg {
+  width: 300px;
+  height: 400px;
+}
+.todos {
+  margin-top: 100px;
+  display: flex;
+
+  font-size: 30px;
+  color: red;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+.button_delet {
+  padding: 3px 7px;
+  font-size: 22px;
+  border: none;
+  background-color: red;
+  color: #fff;
+  border-radius: 6px;
+}
+.button_delet:hover {
+  background-color: black;
+}
+.button_edd {
+  padding: 3px 7px;
+  font-size: 22px;
+  border: none;
+  background-color: rgb(5, 223, 223);
+  color: #fff;
+  border-radius: 6px;
+}
+.button_edd:hover {
+  background-color: black;
+}
